@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 200px;
+            background-color: beige;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Ejercicio 3</h2>
+    <script>
+        let x=parseFloat(prompt("Introduce el primer numero:"));
+        let y=parseFloat(prompt("Introduce el segundo numero:"));
+        let a3=(((x**2)+(y**2))**(2/3))+((x*y)/(y-x));
+        let b3=(((x+y)**(1/2))/((x-y)**2))+((2)*(x**2))-((x)*(y**2));
+        document.writeln("<h3>inciso a</h3>");
+        document.writeln("Respuesta: "+a3+"<br>");
+        document.writeln("<h3>inciso b</h3>");
+        document.writeln("Respuesta: "+b3+"<br>");
+        document.writeln("<br>");
+        document.writeln('<a href="index.html">volver al menu</a>');
+    </script>
+</body>
+</html>

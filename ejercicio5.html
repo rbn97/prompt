@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: 200px;
+            background-color: beige;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Ejercicio 5</h2>
+    <script>
+        let w=parseFloat(prompt("Introduce el primer numero:"));
+        let r=(w*(Math.PI))/(180);
+        let a5l=((Math.cos(r))**(2))-((Math.sin(r))**(2));
+        let a5r=1-((2)*((Math.sin(r))**(2)));
+        let b5l=(Math.tan(r))/((Math.sin(r))-((2)*(Math.tan(r))));
+        let b5r=1/((Math.cos(r))-(2));
+        document.writeln("<h3>inciso a</h3>");
+        document.writeln("cos(x)^2-sen(x)^2 = "+a5l+"<br>");
+        document.writeln("1-2sen(x)^2 = "+a5r+"<br>");
+        document.writeln("<h3>inciso b</h3>");
+        document.writeln("tan(x)/sen(x)-2tan(x) = "+b5l+"<br>");
+        document.writeln("1/cos(x)-2 = "+b5r+"<br>");
+        document.writeln("<br>");
+        document.writeln('<a href="index.html">volver al menu</a>');
+    </script>
+</body>
+</html>
